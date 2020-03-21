@@ -107,3 +107,23 @@ tree_string_picornaviridae_5UTR=read.tree("RAxML_bestTree.T3")
 tree_string_potyviridae_5UTR=read.tree("RAxML_bestTree.T4")
 #plot(tree_string_potyviridae_5UTR)
 ```
+
+### Next, root the unrooted trees prepared for later ancestral construction. Midpoint rooting locates the midpoint of the longest path between any two tips and putting the root in that location. After using midpoint root on the tree string, write.tree ( ) function in R could help check how new rooted trees look like.
+
+``` r
+library(phytools)
+```
+
+    ## Loading required package: maps
+
+``` r
+tree_string_picornaviridae_rooted=midpoint.root(tree_string_picornaviridae)
+
+tree_string_potyviridae_rooted=midpoint.root(tree_string_potyviridae)
+
+tree_string_picornaviridae_5UTR_rooted=midpoint.root(tree_string_picornaviridae_5UTR)
+
+tree_string_potyviridae_5UTR_rooted=midpoint.root(tree_string_potyviridae_5UTR)
+
+#write.tree(tree_string)
+```
