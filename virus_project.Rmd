@@ -96,7 +96,7 @@ tree_string_picornaviridae_5UTR=read.tree("RAxML_bestTree.T3")
 tree_string_potyviridae_5UTR=read.tree("RAxML_bestTree.T4")
 #plot(tree_string_potyviridae_5UTR)
 
-
+write.tree(tree_string_picornaviridae_5UTR,file="tree_3.newick")
 
 ```
 
@@ -113,11 +113,48 @@ tree_string_picornaviridae_5UTR_rooted=midpoint.root(tree_string_picornaviridae_
 
 tree_string_potyviridae_5UTR_rooted=midpoint.root(tree_string_potyviridae_5UTR)
 
-#write.tree(tree_string)
-
-
+#write.tree(tree_string_picornaviridae_5UTR_rooted,file="tree5.newick")
 
 ```
 
+### Ancestral state reconstruction
+```{r}
+library(phytools)
+library(magrittr)
+library(kableExtra)
+tree=read.tree("RAxML_bestTree.T3")
+tree=midpoint.root(tree)
+try1=fastBM(tree_string_picornaviridae_5UTR_rooted)
+# The fitted paramter of reconstruction
+fit<-fastAnc(tree_string_picornaviridae_5UTR_rooted,try1,vars=TRUE,CI=TRUE)
+
+x<-fastBM(tree,internal=TRUE)
+## ancestral states
+a<-x[as.character(1:tree$Nnode+Ntip(tree))]
+## tip data
+x<-x[tree$tip.label]
+fit<-fastAnc(tree,x,CI=TRUE)
+
+plot(a,fit$ace,xlab="true states",ylab="estimated states")
+phenogram(tree,x,ftype="off",spread.labels=FALSE)
+
+phenogram(tree_string_picornaviridae_5UTR_rooted,try1,fsize=0.6,spread.costs=c(1,0))
+
+```
+
+
+# Show the ancestral construction using grasp
+
+```{r}
+#ancestral3=read.dna("tree3_N0-ancestors_GRASP.fasta",as.character=FALSE,format="fasta")
+#ancestral3
+#ancestral3_character=read.dna("tree3_N0-ancestors_GRASP.fasta",as.character=TRUE,format="fasta")
+
+#ancestral4=read.dna("tree4_N0_ancestors_GRASP.fasta",as.character=FALSE,format="fasta")
+#ancestral4
+#ancestral4_character=read.dna("tree4_N0_ancestors_GRASP.fasta",as.character=TRUE,format="fasta")
+
+
+```
 
 
