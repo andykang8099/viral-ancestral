@@ -1,5 +1,5 @@
 ---
-title: "virus_project"
+title: "virus_project: initial batch of 4 files"
 output: github_document
 ---
 
@@ -7,7 +7,15 @@ output: github_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-### First, read four virus files, picornaviridae_aligned, potyviridae_aligned, picornaviridae_5UTR_aligned, and potyviridae_5UTR_aligned into dataframes, which are prepared for later ancestral construction.
+### Reading files
+
+First, read four virus files:
+- picornaviridae_aligned
+- potyviridae_aligned
+- picornaviridae_5UTR_aligned, and 
+- potyviridae_5UTR_aligned 
+
+into dataframes, which are prepared for later ancestral construction.
 
 
 ```{r}
@@ -51,16 +59,26 @@ nrow(seq_potyviridae_5UTR)
 
 ```
 
-### Second, use Raxml ( 20 ML search + bootstrapping ) to get the tree with best likelihood. This part of commands is from bash (Terminal).
+### RAxML runs
+
+Second, use Raxml ( 20 ML search + bootstrapping ) to get the tree with best likelihood. This part of commands is from bash (Terminal).
 
 Note1: the file size of picornaviridae_aligned and potyviridae_aligned is too large. As a result, I limit the bootstrap search time to 1. The search times for Maximal Likelihood (ML) are always 20 times. The estimated best tree could be further improved if the bootstrap times increase. The bootstrap search times for picornaviridae_5UTR_aligned and potyviridae_5UTR_aligned are 6 and 10 times.
 
 Note2: For picornaviridae_5UTR_aligned and potyviridae_5UTR_aligned, the names of some virus sequences contain colon (:), so I tried to delete the colon when the virus name contain it in order to make the fas file executable in Raxml. The files with deleted colon are picornaviridae_5UTR_aligned1 and potyviridae_5UTR_aligned1. 
 
-In the picornaviridae_5UTR_aligned, names of five virus sequences contain colon (:). They are NC_004421.1_Aichivirus_B_genomic_RNA_complete_genome_strain_U-1,NC_033695.1_Enterovirus_AN12_genomic_RNA_complete_genome_strain_AN12,NC_027919.1_Kobuvirus_cattle/Kagoshima-1-22-KoV/2014/JPN_genomic_RNA_nearly_complete_genome_strain_Kagoshima-1-22-KoV/2014/JPN,NC_027918.1_Kobuvirus_cattle/Kagoshima-2-24-KoV/2015/JPN_genomic_RNA_complete_genome_strain_Kagoshima-2-24-KoV/2015/JPN,NC_025474.1_Crohivirus_gene_for_polyprotein_complete_cds_strain_ZM54. For potyviridae_5UTR_aligned, the names of NC_014327.1_Pepper_yellow_mosaic_virus_RNA_complete_genome_strain_DF,NC_030391.1_Wild_onion_symptomless_virus_gene_for_polyprotein_complete_cds_isolate_TUR256-1,NC_021786.1_Habenaria_mosaic_virus_genomic_RNA_complete_genome_isolate_Ha-1 contain colon (:).
+In the picornaviridae_5UTR_aligned, names of five virus sequences contain colon (:). They are 
+- NC_004421.1_Aichivirus_B_genomic_RNA_complete_genome_strain_U-1,NC_033695.1_Enterovirus_AN12_genomic_RNA_complete_genome_strain_AN12,
+- NC_027919.1_Kobuvirus_cattle/Kagoshima-1-22-KoV/2014/JPN_genomic_RNA_nearly_complete_genome_strain_Kagoshima-1-22-KoV/2014/JPN,
+- NC_027918.1_Kobuvirus_cattle/Kagoshima-2-24-KoV/2015/JPN_genomic_RNA_complete_genome_strain_Kagoshima-2-24-KoV/2015/JPN,
+- NC_025474.1_Crohivirus_gene_for_polyprotein_complete_cds_strain_ZM54. 
+
+For potyviridae_5UTR_aligned, the names of virus sequences contain colon (:) are  
+- NC_014327.1_Pepper_yellow_mosaic_virus_RNA_complete_genome_strain_DF,NC_030391.1_Wild_onion_symptomless_virus_gene_for_polyprotein_complete_cds_isolate_TUR256-1,
+- NC_021786.1_Habenaria_mosaic_virus_genomic_RNA_complete_genome_isolate_Ha-1
 
 ### Bash code for rapid bootstrapping in Raxml: 
-
+```
 raxmlHPC -f a -m GTRGAMMA -p 12345 -x 12345 -# 1 -s picornaviridae_aligned.fasta -n T1      
 
 raxmlHPC -f a -m GTRGAMMA -p 12345 -x 12345 -# 1 -s potyviridae_aligned.fasta -n T2 
@@ -68,8 +86,9 @@ raxmlHPC -f a -m GTRGAMMA -p 12345 -x 12345 -# 1 -s potyviridae_aligned.fasta -n
 raxmlHPC -f a -m GTRGAMMA -p 12345 -x 12345 -#6 -s picornaviridae_5UTR_aligned1.fas -n T3 
 
 raxmlHPC -f a -m GTRGAMMA -p 12345 -x 12345 -# 10 -s potyviridae_5UTR_aligned1.fas -n T4 
+```
 
-### Relevant parameters for each ML search + bootstrapping best tree estimation
+#### Relevant parameters for each ML search + bootstrapping best tree estimation
 
 picornaviridae_aligned.fasta: alpha: 4.934338, Tree-Length: 126.910679, rate A <-> C: 1.448674, rate A <-> G: 3.216025, rate A <-> T: 1.314619, rate C <-> G: 1.269701, rate C <-> T: 3.239043, rate G <-> T: 1.000000, pi(A,C,G,T) = c(0.270869, 0.221802, 0.224860, 0.282469).
 
@@ -80,7 +99,10 @@ picornaviridae_5UTR_aligned.fas: alpha: 5.094113, Tree-Length: 110.802014, rate 
 potyviridae_5UTR_aligned.fas: alpha: 1.039252, Tree-Length: 115.318660, rate A <-> C: 1.037454, rate A <-> G: 1.791470, rate A <-> T: 1.154272, rate C <-> G: 0.616361, rate C <-> T: 2.463065, rate G <-> T: 1.000000, pi(A,C,G,T) = c(0.354004,0.236219,0.145031,0.264746)
 
 
-### Read the best tree into R for each virus file. ( Use plot( ) to check. Display tree better with Dendroscope because there are lots of taxas)
+### Estimate ancestral sequence
+
+#### Read trees in R
+Read the best tree into R for each virus file. ( Use `plot( )` to check. Display tree better with Dendroscope because there are lot of taxa)
 
 ```{r}
 
@@ -100,7 +122,8 @@ write.tree(tree_string_picornaviridae_5UTR,file="tree_3.newick")
 
 ```
 
-### Next, root the unrooted trees prepared for later ancestral construction. Midpoint rooting locates the midpoint of the longest path between any two tips and putting the root in that location. After using midpoint root on the tree string, write.tree ( ) function in R could help check how new rooted trees look like.
+#### Root trees in R (midpoint) 
+Next, root the unrooted trees prepared for later ancestral construction. Midpoint rooting locates the midpoint of the longest path between any two tips and putting the root in that location. After using midpoint root on the tree string, `write.tree( )` function in R could help check how new rooted trees look like.
 
 ```{r}
 library(phytools)
@@ -117,7 +140,7 @@ tree_string_potyviridae_5UTR_rooted=midpoint.root(tree_string_potyviridae_5UTR)
 
 ```
 
-### Ancestral state reconstruction
+#### Ancestral state reconstruction
 ```{r}
 library(phytools)
 library(magrittr)
@@ -142,6 +165,7 @@ phenogram(tree_string_picornaviridae_5UTR_rooted,try1,fsize=0.6,spread.costs=c(1
 
 ```
 
+Claudia question: Where is the file `tree3_N0-ancestors_GRASP.fasta` created?
 
 # Show the ancestral construction using grasp
 
@@ -153,8 +177,6 @@ phenogram(tree_string_picornaviridae_5UTR_rooted,try1,fsize=0.6,spread.costs=c(1
 #ancestral4=read.dna("tree4_N0_ancestors_GRASP.fasta",as.character=FALSE,format="fasta")
 #ancestral4
 #ancestral4_character=read.dna("tree4_N0_ancestors_GRASP.fasta",as.character=TRUE,format="fasta")
-
-
 ```
 
 
