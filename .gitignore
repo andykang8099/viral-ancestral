@@ -1,6 +1,7 @@
 resources/*
 data/*
 report/*
+results/*
 
 # Compiled source #
 ###################

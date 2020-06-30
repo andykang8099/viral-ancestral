@@ -37,18 +37,21 @@ Potato leafroll virus and Barley yellow dwarf virus (Luteoviridae family) are ad
 
 
 # Script/results files
-## Initial batch
+## Initial files
 Analysis of 4 files in `scripts/virus_project.Rmd`
 - picornaviridae_aligned
 - potyviridae_aligned
 - picornaviridae_5UTR_aligned, and 
 - potyviridae_5UTR_aligned
 
-with output files in `results` folder:
-- raxml-trees/RAxML_bestTree.T1
-- raxml-trees/RAxML_bestTree.T2
-- raxml-trees/RAxML_bestTree.T3
-- raxml-trees/RAxML_bestTree.T4
-- ancestral-sequence/tree3_N0-ancestors_GRASP.fasta
+with output files in `results/initial-files` folder:
+- RAxML_bestTree.T1
+- RAxML_bestTree.T2
+- RAxML_bestTree.T3
+- RAxML_bestTree.T4
+- tree3_N0-ancestors_GRASP.fasta
 
 These analysis do not have an outgroup and we use midpoint rooting to root the estimated trees.
+
+## Complete genomes and 5UTR files
+Analysis in `scripts/virus_project_updated.md`

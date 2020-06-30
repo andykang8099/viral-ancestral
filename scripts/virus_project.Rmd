@@ -179,4 +179,11 @@ Claudia question: Where is the file `tree3_N0-ancestors_GRASP.fasta` created?
 #ancestral4_character=read.dna("tree4_N0_ancestors_GRASP.fasta",as.character=TRUE,format="fasta")
 ```
 
+# Output files
 
+In `results/initial-files` folder:
+- RAxML_bestTree.T1
+- RAxML_bestTree.T2
+- RAxML_bestTree.T3
+- RAxML_bestTree.T4
+- tree3_N0-ancestors_GRASP.fasta
