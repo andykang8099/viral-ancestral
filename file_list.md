@@ -37,21 +37,57 @@ Potato leafroll virus and Barley yellow dwarf virus (Luteoviridae family) are ad
 
 
 # Script/results files
-## Initial files
-Analysis of 4 files in `scripts/virus_project.Rmd`
-- picornaviridae_aligned
-- potyviridae_aligned
-- picornaviridae_5UTR_aligned, and 
-- potyviridae_5UTR_aligned
-
+## Initial four files 
+Analysis of 4 files in `scripts/virus_project_initial_files.Rmd`
 with output files in `results/initial-files` folder:
-- RAxML_bestTree.T1
-- RAxML_bestTree.T2
-- RAxML_bestTree.T3
-- RAxML_bestTree.T4
-- tree3_N0-ancestors_GRASP.fasta
+Tree files:
+- RAxML_bestTree_picornaviridae_5UTR_aligned_midpoint.tree
+- RAxML_bestTree_picornaviridae_5UTR_aligned.tree
+- RAxML_bestTree_picornaviridae_aligned_midpoint.tree
+- RAxML_bestTree_picornaviridae_aligned.tree
+- RAxML_bestTree_potyviridae_5UTR_aligned_midpoint.tree
+- RAxML_bestTree_potyviridae_5UTR_aligned.tree
+- RAxML_bestTree_potyviridae_aligned_midpoint.tree
+- RAxML_bestTree_potyviridae_aligned.tree
+
+Ancestral Sequence files:
+
+- picornaviridae_5UTR_aligned_midpoint_AncestralSeq.fasta
+- potyviridae_5UTR_aligned_midpoint_AncestralSeq.fasta
 
 These analysis do not have an outgroup and we use midpoint rooting to root the estimated trees.
 
 ## Complete genomes and 5UTR files
-Analysis in `scripts/virus_project_updated.md`
+Analysis in `scripts/virus_project_genome_5UTR.md`
+with output files in `results/5UTR_outgroup` folder:
+
+Tree files:
+- RAxML_bestTree_picornaviridae_5UTR_with_outgroup_aligned_midpoint.tree
+- RAxML_bestTree_picornaviridae_5UTR_with_outgroup_aligned_unrooted.tree
+- RAxML_bestTree_picornaviridae_potyviridae_5UTR_aligned_midpoint.tree
+- RAxML_bestTree_picornaviridae_potyviridae_5UTR_aligned_unrooted.tree
+- RAxML_bestTree_potyviridae_5UTR_with_outgroup_aligned_midpoint.tree
+- RAxML_bestTree_potyviridae_5UTR_with_outgroup_aligned_unrooted.tree
+
+Ancestral Sequence files:
+
+- picornaviridae_5UTR_with_outgroup_aligned_midpoint_AncestralSeq.fasta
+- picornaviridae_potyviridae_5UTR_aligned_midpoint_AncestralSeq.fasta
+- potyviridae_5UTR_with_outgroup_aligned_midpoint__AncestralSeq.fasta
+
+
+With `results/complete_genome_outgroup` folder:
+
+Tree files:
+- RAxML_bestTree_picornaviridae_genome_with_outgroup_aligned_midpoint.tree
+- RAxML_bestTree_picornaviridae_genome_with_outgroup_aligned_unrooted.tree
+- RAxML_bestTree_picornaviridae_potyviridae_genome_aligned_midpoint.tree
+- RAxML_bestTree_picornaviridae_potyviridae_genome_aligned_unrooted.tree
+- RAxML_bestTree_potyviridae_genome_with_outgroup_aligned_midpoint.tree
+- RAxML_bestTree_potyviridae_genome_with_outgroup_aligned_unrooted.tree
+
+Ancestral Sequence files:
+
+- picornaviridae_genome_with_outgroup_aligned_midpoint_AncestralSeq.fasta
+- picornaviridae_potyviridae_genome_aligned_midpoint_AncestralSeq.fasta
+- potyviridae_genome_with_outgroup_aligned_midpoint_AncestralSeq.fasta
