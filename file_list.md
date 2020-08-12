@@ -45,6 +45,14 @@ Potato leafroll virus and Barley yellow dwarf virus (Luteoviridae family) are ad
 - __replicase_picornavirus_and_potyvirus_nucleotide_mitovirus_outgroup_aligned.fasta__: 204 aligned nucleotide sequences of the replicase gene of members of the Potyviridae and Picornaviridae family. Cryphonectria parasitica mitovirus and Ophiostoma mitovirus 4 (Narnaviridae family) are added as outgroups.  
 - __replicase_picornavirus_and_potyvirus_protein_mitovirus_outgroup_aligned.fasta__: 204 aligned amino acid sequences of the replicase gene of members of the Potyviridae and Picornaviridae family. Cryphonectria parasitica mitovirus and Ophiostoma mitovirus 4 (Narnaviridae family) are added as outgroups.  
 
+## __5' UTR Files with Mitovirus outgroup__
+(Uploaded Aug 12 2020 to Slack by Helena)  
+- __picornaviridae_5UTR_mitovirus_outgroup_aligned.fasta__: 131 aligned nucleotide sequences of the 5' UTR sequence of members of the Picornaviridae family. 
+Cryphonectria parasitica mitovirus and Ophiostoma mitovirus 4 (Narnaviridae family) are added as outgroups.
+- __potyviridae_5UTR_mitovirus_outgroup_aligned.fasta__: 154 aligned nucleotide sequences of the 5' UTR sequence of members of the Potyviridae family. 
+Cryphonectria parasitica mitovirus and Ophiostoma mitovirus 4 (Narnaviridae family) are added as outgroups.
+- __potyviridae_picornaviridae_5UTR_mitovirus_outgroup_aligned.fasta__: 283 aligned nucleotide sequences of the 5' UTR sequence of members of the Potyviridae family and the Picornaviridae family. Cryphonectria parasitica mitovirus and Ophiostoma mitovirus 4 (Narnaviridae family) are added as outgroups.
+
 # Script/results files
 ## Initial four files 
 Analysis of 4 files in `scripts/virus_project_initial_files.Rmd`
