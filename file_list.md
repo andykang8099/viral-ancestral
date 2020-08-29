@@ -116,3 +116,102 @@ Ancestral Sequence files:
 - picornaviridae_genome_with_outgroup_aligned_midpoint_AncestralSeq.fasta
 - picornaviridae_potyviridae_genome_aligned_midpoint_AncestralSeq.fasta
 - potyviridae_genome_with_outgroup_aligned_midpoint_AncestralSeq.fasta
+
+
+## Second replicase file (mitovirus outgroup)
+
+Analysis of 6 files in `scripts/replicase_mitovirus_outgroup.md`
+with output files in `replicase_mitovirus` folder in google drive:
+
+#### With `original_sequence_alignment_replicase` and `original_sequence_alignment_replicase_5UTR` folder:
+
+This folder contains the original sequence alignment of six replicase files and 5UTR files.
+
+#### With `revised_sequence_alignment_replicase` folder:
+
+This folder contains the sequence alignment of six replicase files, the difference is that the space and special characters in the ID of virus are removed. 
+
+- replicase_picorna_nucleotide_mito_nospace.fasta
+- replicase_picorna_protein_mito_nospace.fasta
+- replicase_picornapoty_nucleotide_mito_nospace.fasta
+- replicase_picornapoty_protein_mito_nospace.fasta
+- replicase_poty_nucleotide_mito_nospace.fasta
+- replicase_poty_protein_mito_nospace.fasta
+
+and the replicase contains only the taxa that exist in 5UTR
+
+- replicase_picornavirus_5UTR_mito_comb.fasta
+- replicase_picornapotyvirus_5UTR_mito_comb.fasta
+- replicase_potyvirus_5UTR_mito_comb.fasta
+
+#### With `revised_sequence_alignment_5UTR folder:
+
+it contains the sequence alignment of the 5UTR which delete the taxa not in the replicase file and same ID as the replicase file
+
+- picornaviridae_5UTR_mitovirus_outgroup_ReplicaseID.fasta
+- potyviridae_5UTR_mitovirus_outgroup_ReplicaseID.fasta
+- potyviridae_picornaviridae_5UTR_mitovirus_outgroup_ReplicaseID.fasta
+
+the sequence alignment of the 5UTR and the space and special characters in the ID of virus are removed
+
+- picornaviridae_5UTR_mitovirus_outgroup_ReplicaseID_nospace.fasta
+- potyviridae_5UTR_mitovirus_outgroup_ReplicaseID_nospace.fasta
+- potyviridae_picornaviridae_5UTR_mitovirus_outgroup_ReplicaseID_nospace.fasta
+
+With the deletion on gap-only sites
+
+- picornaviridae_5UTR_mitovirus_outgroup_ReplicaseID_nospacegap.fas
+- potyviridae_5UTR_mitovirus_outgroup_ReplicaseID_nospacegap.fas
+- potyviridae_picornaviridae_5UTR_mitovirus_outgroup_ReplicaseID_nospacegap.fas
+
+
+#### With `Trees` folder:
+
+`tree_raxml_output` folder:
+
+it contains the tree files derived from RAXML:
+
+- replicase_picornavirus_and_potyvirus_nucleotide_mito.tree
+- replicase_picornavirus_and_potyvirus_protein_mito.tree
+- replicase_picornavirus_nucleotide_mito.tree
+- replicase_picornavirus_protein_mito.tree
+- replicase_potyvirus_nucleotide_mito.tree
+- replicase_potyvirus_protein_mito.tree
+
+`tree_raxml_rooting` folder:
+
+it contains the trees after rooting at midpoint or outgroup
+
+- replicase_picornavirus_and_potyvirus_nucleotide_mito_midpoint.tree
+- replicase_picornavirus_and_potyvirus_nucleotide_mito_outgroup.tree
+- replicase_picornavirus_and_potyvirus_protein_mito_midpoint.tree
+- replicase_picornavirus_and_potyvirus_protein_mito_outgroup.tree
+- replicase_picornavirus_nucleotide_mito_midpoint.tree
+- replicase_picornavirus_protein_mito_midpoint.tree
+- replicase_picornavirus_protein_mito_outgroup.tree
+- replicase_potyvirus_nucleotide_mito_midpoint.tree
+- replicase_potyvirus_nucleotide_mito_outgroup.tree
+- replicase_potyvirus_protein_mito_midpoint.tree
+- replicase_potyvirus_protein_mito_outgroup.tree
+
+`tree_deleted_taxa] folder:
+
+it contains tress that delete the taxa not in the 5UTR
+
+- picornavirus_and_potyvirus_nucleotide_mitovirus_replicasetree_midpoint_deletion.tree
+- picornavirus_and_potyvirus_nucleotide_mitovirus_replicasetree_outgroup_deletion.tree
+- picornavirus_nucleotide_mitovirus_replicasetree_midpoint_deletion.tree
+- potyvirus_nucleotide_mitovirus_replicasetree_midpoint_deletion.tree
+- potyvirus_nucleotide_mitovirus_replicasetree_outgroup_deletion.tree
+
+
+#### With `Ancestral_Sequence_mitovirus` folder:
+
+it contains the ancestral sequence
+
+- picornaviridae_5UTR_mitovirus_replicasetree_midpoint_AncestralSeq.tree
+- picornaviridae_and_potyviridae_5UTR_mitovirus_replicasetree_midpoint_AncestralSeq.tree
+- picornaviridae_and_potyviridae_5UTR_mitovirus_replicasetree_outgroup_AncestralSeq.tree
+- potyviridae_5UTR_mitovirus_replicasetree_midpoint_AncestralSeq.tree
+- potyviridae_5UTR_mitovirus_replicasetree_outgroup_AncestralSeq.tree
+
