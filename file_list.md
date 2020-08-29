@@ -64,7 +64,7 @@ Cryphonectria parasitica mitovirus and Ophiostoma mitovirus 4 (Narnaviridae fami
 # Script/results files
 ## Initial four files 
 Analysis of 4 files in `scripts/virus_project_initial_files.Rmd`
-with output files in `results/initial-files` folder:
+with output files in `initial-files` folder in google drive:
 Tree files:
 - RAxML_bestTree_picornaviridae_5UTR_aligned_midpoint.tree
 - RAxML_bestTree_picornaviridae_5UTR_aligned.tree
@@ -84,7 +84,7 @@ These analysis do not have an outgroup and we use midpoint rooting to root the e
 
 ## Complete genomes and 5UTR files
 Analysis in `scripts/virus_project_genome_5UTR.md`
-with output files in `results/5UTR_outgroup` folder:
+with output files in `5UTR_outgroup` folder in google drive:
 
 Tree files:
 - RAxML_bestTree_picornaviridae_5UTR_with_outgroup_aligned_midpoint.tree
@@ -101,7 +101,7 @@ Ancestral Sequence files:
 - potyviridae_5UTR_with_outgroup_aligned_midpoint__AncestralSeq.fasta
 
 
-With `results/complete_genome_outgroup` folder:
+With results in `complete_genome_outgroup` in google drive folder:
 
 Tree files:
 - RAxML_bestTree_picornaviridae_genome_with_outgroup_aligned_midpoint.tree
@@ -117,19 +117,18 @@ Ancestral Sequence files:
 - picornaviridae_potyviridae_genome_aligned_midpoint_AncestralSeq.fasta
 - potyviridae_genome_with_outgroup_aligned_midpoint_AncestralSeq.fasta
 
+## First replicase files
 
-## Second replicase file (mitovirus outgroup)
+(still missing info)
+
+## Second replicase files (mitovirus outgroup)
 
 Analysis of 6 files in `scripts/replicase_mitovirus_outgroup.md`
-with output files in `replicase_mitovirus` folder in google drive:
+with output files in `replicase_mitovirus` folder in google drive. This folder contains the following subfolder:
 
-#### With `original_sequence_alignment_replicase` and `original_sequence_alignment_replicase_5UTR` folder:
+1. With `original_sequence_alignment_replicase` and `original_sequence_alignment_replicase_5UTR` folder: This folder contains the original sequence alignment of six replicase files and 5UTR files.
 
-This folder contains the original sequence alignment of six replicase files and 5UTR files.
-
-#### With `revised_sequence_alignment_replicase` folder:
-
-This folder contains the sequence alignment of six replicase files, the difference is that the space and special characters in the ID of virus are removed. 
+2. With `revised_sequence_alignment_replicase` folder: This folder contains the sequence alignment of six replicase files, the difference is that the space and special characters in the ID of virus are removed. 
 
 - replicase_picorna_nucleotide_mito_nospace.fasta
 - replicase_picorna_protein_mito_nospace.fasta
@@ -144,9 +143,7 @@ and the replicase contains only the taxa that exist in 5UTR
 - replicase_picornapotyvirus_5UTR_mito_comb.fasta
 - replicase_potyvirus_5UTR_mito_comb.fasta
 
-#### With `revised_sequence_alignment_5UTR folder:
-
-it contains the sequence alignment of the 5UTR which delete the taxa not in the replicase file and same ID as the replicase file
+3. With `revised_sequence_alignment_5UTR folder`: this folder contains the sequence alignment of the 5UTR which delete the taxa not in the replicase file and same ID as the replicase file
 
 - picornaviridae_5UTR_mitovirus_outgroup_ReplicaseID.fasta
 - potyviridae_5UTR_mitovirus_outgroup_ReplicaseID.fasta
@@ -164,12 +161,9 @@ With the deletion on gap-only sites
 - potyviridae_5UTR_mitovirus_outgroup_ReplicaseID_nospacegap.fas
 - potyviridae_picornaviridae_5UTR_mitovirus_outgroup_ReplicaseID_nospacegap.fas
 
+4. Within `Trees` folder, there are other subfolders:
 
-#### With `Trees` folder:
-
-`tree_raxml_output` folder:
-
-it contains the tree files derived from RAXML:
+`tree_raxml_output` folder: it contains the tree files derived from RAXML:
 
 - replicase_picornavirus_and_potyvirus_nucleotide_mito.tree
 - replicase_picornavirus_and_potyvirus_protein_mito.tree
@@ -178,9 +172,7 @@ it contains the tree files derived from RAXML:
 - replicase_potyvirus_nucleotide_mito.tree
 - replicase_potyvirus_protein_mito.tree
 
-`tree_raxml_rooting` folder:
-
-it contains the trees after rooting at midpoint or outgroup
+`tree_raxml_rooting` folder: it contains the trees after rooting at midpoint or outgroup
 
 - replicase_picornavirus_and_potyvirus_nucleotide_mito_midpoint.tree
 - replicase_picornavirus_and_potyvirus_nucleotide_mito_outgroup.tree
@@ -194,9 +186,7 @@ it contains the trees after rooting at midpoint or outgroup
 - replicase_potyvirus_protein_mito_midpoint.tree
 - replicase_potyvirus_protein_mito_outgroup.tree
 
-`tree_deleted_taxa] folder:
-
-it contains tress that delete the taxa not in the 5UTR
+`tree_deleted_taxa` folder: it contains tress that delete the taxa not in the 5UTR
 
 - picornavirus_and_potyvirus_nucleotide_mitovirus_replicasetree_midpoint_deletion.tree
 - picornavirus_and_potyvirus_nucleotide_mitovirus_replicasetree_outgroup_deletion.tree
@@ -205,9 +195,7 @@ it contains tress that delete the taxa not in the 5UTR
 - potyvirus_nucleotide_mitovirus_replicasetree_outgroup_deletion.tree
 
 
-#### With `Ancestral_Sequence_mitovirus` folder:
-
-it contains the ancestral sequence
+5. With `Ancestral_Sequence_mitovirus` folder: it contains the ancestral sequences
 
 - picornaviridae_5UTR_mitovirus_replicasetree_midpoint_AncestralSeq.tree
 - picornaviridae_and_potyviridae_5UTR_mitovirus_replicasetree_midpoint_AncestralSeq.tree
