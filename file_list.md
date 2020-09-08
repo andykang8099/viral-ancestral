@@ -60,6 +60,15 @@ Cryphonectria parasitica mitovirus and Ophiostoma mitovirus 4 (Narnaviridae fami
 - __replicase_picornavirus_triticum_protein_mitovirus_outgroup_aligned.fasta__: 86 aligned amino acid sequences of the replicase gene of members of the Picornaviridae family plus the potyvirus Triticum mosaic virus (87 sequence in total). Cryphonectria parasitica mitovirus and Ophiostoma mitovirus 4 (Narnaviridae family) are added as outgroups.
 - __picornaviridae_triticum_5UTR_mitovirus_outgroup_aligned.fasta__: 131 aligned nucleotide sequences of the 5' UTR sequence of members of the Picornaviridae family plus the potyvirus Triticum mosaic virus (132 sequences total). Cryphonectria parasitica mitovirus and Ophiostoma mitovirus 4 (Narnaviridae family) are added as outgroups.
 
+## __Complete Genome Files with Mitovirus Outgroup__
+(Uploaded April 24 2020 to Slack by Helena)  
+
+- __picornaviridae_genome_mitovirus_outgroup_aligned.fasta.fasta__: 228 aligned nucleotide sequences of the complete genome sequence of members of the Picornaviridae family. Cryphonectria parasitica mitovirus and Ophiostoma mitovirus 4 (Narnaviridae family) are added as outgroups.
+Vesicular exanthema of swine virus and Norovirus (Caliciviridae family) are added as outgroups. 
+- __potyviridae_genome_mitovirus_outgroup_aligned.fasta__: 220 aligned nucleotide sequences of the complete genome sequence of members of the Potyviridae family. 
+Cryphonectria parasitica mitovirus and Ophiostoma mitovirus 4 (Narnaviridae family) are added as outgroups.
+- __picornaviridae_potyviridae_genome_mitovirus_outgroup_aligned.fasta__: 446 aligned nucleotide sequences of the complete genome of members of the Potyviridae family and the Picornaviridae family. Cryphonectria parasitica mitovirus and Ophiostoma mitovirus 4 (Narnaviridae family) are added as outgroups.
+
 
 # Script/results files
 ## Initial four files 
