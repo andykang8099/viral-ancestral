@@ -128,7 +128,36 @@ Ancestral Sequence files:
 
 ## First replicase files
 
-(still missing info)
+Analysis of 6 files in `scripts/replicase_outgroup_part1.md` and `scripts/replicase_outgroup_part3.md`
+with output files in `replicase_two_outgroup` folder in google drive. This folder contains the following subfolder:
+
+1. With the `tree_deletion_extra_taxa` taxa: it contains the tree with the deleted taxa not in replicase files but in 5UTR files
+
+-"picornavirus_nucleotide_midpoint_replicasetree_deletion.tree"
+-"picornavirus_nucleotide_outgroup_replicasetree_deletion.tree"
+-"picornavirus_potyvirus_nucleotide_midpoint_replicasetree_deletion.tree"
+-"potyvirus_nucleotide_midpoint_replicasetree_deletion.tree"
+-"potyvirus_nucleotide_outgroup_replicasetree_deletion.tree"
+
+2. With the `sequence_match_replicase_5UTR` : it contains the 5UTR sequence which ID matches the replicase files
+
+
+3. With `Ancestral_Sequence_5UTR_replicasetree`
+
+it shows the ancestral reconstruction sequence of the nucleotide sequence based on 5UTR files and replicase tree
+
+-"picornaviridae_5UTR_replicasetree_midpoint_AncestralSeq.fasta"
+-"picornaviridae_5UTR_replicasetree_outgroup_AncestralSeq.fasta"
+-"picornaviridae_potyviridae_5UTR_replicasetree_midpoint_AncestralSeq.fasta"
+-"potyviridae_5UTR_replicasetree_midpoint_AncestralSeq.fasta"
+-"potyviridae_5UTR_replicasetree_outgroup_AncestralSeq"
+
+
+
+
+
+
+
 
 ## Second replicase files (mitovirus outgroup)
 
