@@ -711,3 +711,48 @@ Outgroup:
 raxmlHPC -f A -p 12345 -t picornavirus\_and\_potyvirus\_nucleotide\_mitovirus\_replicasetree\_outgroup\_deletion.tree -s potyviridae\_picornaviridae\_5UTR\_mitovirus\_outgroup\_ReplicaseID\_nospacegap.fas -m GTRGAMMA -n S5
 
 This command product output file: "picornaviridae\_and\_potyviridae\_5UTR\_mitovirus\_replicasetree\_outgroup\_AncestralSeq.fasta"
+
+Section 8
+---------
+
+This part focuses on the ancestral construction of the protein file. Since the protein file does not contain 5UTR files, we use the replicase tree and replicase sequence alignment for ancestral sequence construction.
+
+Since the protein files contain X, which cannot be discerned by RAXML, so I use - instead.
+
+The new files are:
+
+"replicase\_poty\_protein\_mito\_nospaceX.fas" "replicase\_picorna\_protein\_mito\_nospaceX.fas" "replicase\_picornapoty\_protein\_mito\_nospaceX.fas"
+
+Note: In order to make the output files more clear and display it correctly, I change P1, P2, P3, P4, P5, and P6 to .fasta in the final file names to differential sequence alignment files in order to show a uniform name to show the ancestor sequence. The first part of the name of the files remains same.
+
+The model is JTT model.
+
+##### potyvirus
+
+Midpoint:
+
+raxmlHPC -f A -p 23456 -t replicase\_potyvirus\_protein\_mito\_midpoint.tree -s replicase\_poty\_protein\_mito\_nospaceX.fas -m PROTGAMMAJTT -n P1
+
+This command product output file: "potyviridae\_mitovirus\_protein\_midpoint\_AncestralSeq.fasta"
+
+Outgroup:
+
+raxmlHPC -f A -p 23456 -t replicase\_potyvirus\_protein\_mito\_outgroup.tree -s replicase\_poty\_protein\_mito\_nospaceX.fas -m PROTGAMMAJTT -n P2
+
+This command product output file: "potyviridae\_mitovirus\_protein\_outgrouproot\_AncestralSeq.fasta"
+
+##### picornavirus
+
+Midpoint:
+
+raxmlHPC -f A -p 23456 -t replicase\_picornavirus\_protein\_mito\_midpoint.tree -s replicase\_picorna\_protein\_mito\_nospaceX.fass -m PROTGAMMAJTT -n P3
+
+This command product output file: "picornaviridae\_mitovirus\_protein\_midpoint\_AncestralSeq.fasta"
+
+Outgroup:
+
+raxmlHPC -f A -p 23456 -t replicase\_picornavirus\_protein\_mito\_outgroup.tree -s replicase\_picorna\_protein\_mito\_nospaceX.fas -m PROTGAMMAJTT -n P4
+
+This command product output file: "picornaviridae\_mitovirus\_protein\_midpoint\_AncestralSeq.fasta"
+
+##### potyvirus + picornavirus
