@@ -61,7 +61,7 @@ Cryphonectria parasitica mitovirus and Ophiostoma mitovirus 4 (Narnaviridae fami
 - __picornaviridae_triticum_5UTR_mitovirus_outgroup_aligned.fasta__: 131 aligned nucleotide sequences of the 5' UTR sequence of members of the Picornaviridae family plus the potyvirus Triticum mosaic virus (132 sequences total). Cryphonectria parasitica mitovirus and Ophiostoma mitovirus 4 (Narnaviridae family) are added as outgroups.
 
 ## __Complete Genome Files with Mitovirus Outgroup__
-(Uploaded April 24 2020 to Slack by Helena)  
+(Uploaded Sep 8 2020 to Slack by Helena)  
 
 - __picornaviridae_genome_mitovirus_outgroup_aligned.fasta.fasta__: 228 aligned nucleotide sequences of the complete genome sequence of members of the Picornaviridae family. Cryphonectria parasitica mitovirus and Ophiostoma mitovirus 4 (Narnaviridae family) are added as outgroups.
 Vesicular exanthema of swine virus and Norovirus (Caliciviridae family) are added as outgroups. 
