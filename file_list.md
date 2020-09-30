@@ -245,3 +245,36 @@ With the deletion on gap-only sites
 - picornaviridae_mitovirus_protein_midpoint_AncestralSeq.fasta
 - picornaviridae_mitovirus_protein_outgrouproot_AncestralSeq.fasta
 
+## __Replicase & 5'UTR Picornaviridae plus Triticum mosaic virus Files (with Mitovirus outgroup)
+
+With `Tree` folder: it contains the phylogenetic tree files directly derived from RAXML and midpoint and outgroup rooting on the trees
+
+- replicase_picornavirus_triticum_nucleotide_mitovirus_midpoint.tree
+- replicase_picornavirus_triticum_nucleotide_mitovirus_outgroup_noroot.tree
+- replicase_picornavirus_triticum_nucleotide_mitovirus_outgrouprooting.tree
+- replicase_picornavirus_triticum_protein_mitovirus_midpoint.tree
+- replicase_picornavirus_triticum_protein_mitovirus_outgroup_noroot.tree
+- replicase_picornavirus_triticum_protein_mitovirus_outgrouprooting.tree
+
+Within `Tree` folder, there is a subfolder called `tree_deletion`: it contains the tree of the nucleotide files which delelet the taxa that are not in 5TUR
+
+- picornavirus_triticum_nucleotide_mitovirus_replicasetree_midpoint_deletion.tree
+- picornavirus_triticum_nucleotide_mitovirus_replicasetree_outgroup_deletion.tree
+
+With 'sequence_revised': it contains the sequences whose format is revised. The main revision is the ID of each virus. For instance, the space in ID, gap-only columns, and the matched ID between 5UTR files and replicase files
+
+- picornaviridae_triticum_5UTR_mitovirus_outgroup_ReplicaseID_nospace.fasta
+- picornaviridae_triticum_5UTR_mitovirus_outgroup_ReplicaseID_nospacegap.fas
+- picornaviridae_triticum_5UTR_mitovirus_outgroup_ReplicaseID.fasta
+- replicase_picornavirus_triricum_nucleotide_5UTR_mito_combination.fasta
+- replicase_picornavirus_triticum_nucleotide_mitovirus_outgroup_nospace.fasta
+- replicase_picornavirus_triticum_protein_mitovirus_outgroup_nospace.fasta
+- replicase_picornavirus_triticum_protein_mitovirus_outgroup_nospaceX.fas
+
+
+With`Ancestral Sequences` folder: it contains the ancestral sequences of two rooting ways
+
+- picornaviridae_triticum_5UTR_mitovirus_replicasetree_midpoint_AncestralSeq.fasta
+- picornaviridae_triticum_5UTR_mitovirus_replicasetree_outgroup_AncestralSeq.fasta
+- replicase_picornavirus_triticum_protein_mitovirus_midpoint_AncestralSeq.fasta
+- replicase_picornavirus_triticum_protein_mitovirus_outgrouprooting_AncestralSeq.fast
