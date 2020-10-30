@@ -261,7 +261,7 @@ Within `Tree` folder, there is a subfolder called `tree_deletion`: it contains t
 - picornavirus_triticum_nucleotide_mitovirus_replicasetree_midpoint_deletion.tree
 - picornavirus_triticum_nucleotide_mitovirus_replicasetree_outgroup_deletion.tree
 
-With 'sequence_revised': it contains the sequences whose format is revised. The main revision is the ID of each virus. For instance, the space in ID, gap-only columns, and the matched ID between 5UTR files and replicase files
+Within `sequence_revised`: it contains the sequences whose format is revised. The main revision is the ID of each virus. For instance, the space in ID, gap-only columns, and the matched ID between 5UTR files and replicase files
 
 - picornaviridae_triticum_5UTR_mitovirus_outgroup_ReplicaseID_nospace.fasta
 - picornaviridae_triticum_5UTR_mitovirus_outgroup_ReplicaseID_nospacegap.fas
@@ -278,3 +278,20 @@ With`Ancestral Sequences` folder: it contains the ancestral sequences of two roo
 - picornaviridae_triticum_5UTR_mitovirus_replicasetree_outgroup_AncestralSeq.fasta
 - replicase_picornavirus_triticum_protein_mitovirus_midpoint_AncestralSeq.fasta
 - replicase_picornavirus_triticum_protein_mitovirus_outgrouprooting_AncestralSeq.fast
+
+## __Complete_Genome_Mitovirus__
+
+Within `Tree` folder: it contains the ancestral sequences of the complete genome virus
+
+- potyviridae_genome_mitovirus_outgroup_outgrouprooting.tree
+- potyviridae_genome_mitovirus_outgroup_midpointrooting.tree
+- picornaviridae_potyviridae_genome_mitovirus_outgroup_midpointrooting.tree
+- picornaviridae_genome_mitovirus_outgroup_midpointrooting.tree
+
+Within `Ancestral Sequences` folder: it contains the ancestral sequences of the complete genome virus
+
+- potyviridae_genome_mitovirus_outgroup_aligned_outgrouprooting_AncestralSeq.fasta
+- potyviridae_genome_mitovirus_outgroup_aligned_midpointrooting_AncestralSeq.fasta
+- picornaviridae_genome_mitovirus_outgroup_aligned_midpointrooting_AncestralSeq.fasta
+
+
