@@ -232,7 +232,7 @@ With the deletion on gap-only sites
 5. With `Ancestral_Sequence_mitovirus` folder: it contains the ancestral sequences
 
 - picornaviridae_5UTR_mitovirus_replicasetree_midpoint_AncestralSeq.fasta
-- picornaviridae_5UTR_mitovirus_replicasetree_outgrouprooting_nooutgroup_AncestralSeq.fasta
+- picornaviridae_5UTR_mitovirus_replicasetree_outgrouprooting_AncestralSeq.fasta
 - picornaviridae_and_potyviridae_5UTR_mitovirus_replicasetree_midpoint_AncestralSeq.fasta
 - picornaviridae_and_potyviridae_5UTR_mitovirus_replicasetree_outgroup_AncestralSeq.fasta
 - potyviridae_5UTR_mitovirus_replicasetree_midpoint_AncestralSeq.fasta
