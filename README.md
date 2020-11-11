@@ -1,5 +1,5 @@
 # YX-AUG Motif Ancestry
 
-Collaboration of Yuzhou Jang, Helena Jaramillo Mesa, Aurelie Rakotondrafara, and Claudia Solis-Lemus
+Collaboration of Yuzhou Kang, Helena Jaramillo Mesa, Aurelie Rakotondrafara, and Claudia Solis-Lemus
 
 See `file_list.md` for a description of files in this repository.
