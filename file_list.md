@@ -154,11 +154,6 @@ it shows the ancestral reconstruction sequence of the nucleotide sequence based 
 
 
 
-
-
-
-
-
 ## Second replicase files (mitovirus outgroup)
 
 Analysis of 6 files in `scripts/replicase_mitovirus_outgroup.md`
@@ -281,7 +276,7 @@ With`Ancestral Sequences` folder: it contains the ancestral sequences of two roo
 
 ## __Complete_Genome_Mitovirus__
 
-Within `Tree` folder: it contains the ancestral sequences of the complete genome virus
+Within `Tree` folder: it contains the trees of complete genome
 
 - potyviridae_genome_mitovirus_outgroup_outgrouprooting.tree
 - potyviridae_genome_mitovirus_outgroup_midpointrooting.tree
@@ -293,5 +288,28 @@ Within `Ancestral Sequences` folder: it contains the ancestral sequences of the 
 - potyviridae_genome_mitovirus_outgroup_aligned_outgrouprooting_AncestralSeq.fasta
 - potyviridae_genome_mitovirus_outgroup_aligned_midpointrooting_AncestralSeq.fasta
 - picornaviridae_genome_mitovirus_outgroup_aligned_midpointrooting_AncestralSeq.fasta
+
+
+## __Analysis_without_Outgroup__
+
+Within `Trees` folder: it contains the trees with the 5UTR files without the outgroups
+
+- picornaviridae_5UTR_mitovirus_replicasetree_outgrouprooting_nooutgroup.tree
+- potyviridae_picornaviridae_5UTR_mitovirus_replicasetree_outgrouprooting_nooutgroup.tree
+- potyvirus_nucleotide_mitovirus_replicasetree_outgrouprooting_nooutgroup.tree
+
+Within `revised_5UTR_nooutgroup` folder: it contains the 5UTR files with the ID in the replicase files and the removal of outgroup
+
+- picornaviridae_5UTR_mitovirus_ReplicaseID_nooutgroup.fas
+- potyviridae_5UTR_mitovirus_outgroup_ReplicaseID_nooutgroup.fas
+- potyviridae_picornaviridae_5UTR_mitovirus_ReplicaseID_nooutgroup.fas
+
+Within `Ancestral_Sequence` folder: it contains the ancestral sequences of the 5UTR files without the outgroup
+
+- picornaviridae_5UTR_mitovirus_replicasetree_outgrouprooting_nooutgroup_AncestralSeq.fasta
+- potyviridae_5UTR_mitovirus_replicasetree_outgrouprooting_nooutgroup_AncestralSeq.fasta
+- potyviridae_picornaviridae_5UTR_mitovirus_replicasetree_outgrouprooting_nooutgroup_AncestralSeq.fasta
+
+
 
 
