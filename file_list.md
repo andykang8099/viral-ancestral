@@ -313,5 +313,18 @@ Within `Ancestral_Sequence` folder: it contains the ancestral sequences of the 5
 - potyviridae_picornaviridae_5UTR_mitovirus_replicasetree_outgrouprooting_nooutgroup_AncestralSeq.fasta
 
 
+## __Analysis_without_Outgroup__Triticum
 
+Within `Trees(outgroup and Triticum removed)` folder: it contains the trees with the 5UTR files without the outgroups and without the (Triticum + Outgroup)
+picornaviridae_triticum_5UTR_mitovirus_outgroup_ReplicaseID_nooutgroup.fa
+- picornavirus_triticum_nucleotide_mitovirus_replicasetree_outgrouprooting_nooutgroup.tree
+- picornavirus_triticum_nucleotide_mitovirus_replicasetree_outgrouprooting_noTriticum.tree
+- replicase_picornavirus_triticum_protein_mitovirus_outgrouprooting_nooutgroup.tree
+- replicase_picornavirus_triticum_protein_mitovirus_outgrouprooting_noTriticum.tree
 
+Within `Sequences (outgroup and Triticum removed)` folder: it contains the files with the ID in the replicase files and the removal of outgroup and Triticum
+
+- picornaviridae_triticum_5UTR_mitovirus_outgroup_ReplicaseID_nooutgroup.fas
+- picornaviridae_triticum_5UTR_mitovirus_outgroup_ReplicaseID_noTriticum.fas
+- replicase_picornavirus_triticum_protein_mitovirus_outgroup_nooutgroupfile.fas
+- replicase_picornavirus_triticum_protein_mitovirus_outgroup_noTriticumfile.fas
