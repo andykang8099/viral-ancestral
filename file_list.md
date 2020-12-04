@@ -312,7 +312,11 @@ Within `Ancestral_Sequence` folder: it contains the ancestral sequences of the 5
 - potyviridae_5UTR_mitovirus_replicasetree_outgrouprooting_nooutgroup_AncestralSeq.fasta
 - potyviridae_picornaviridae_5UTR_mitovirus_replicasetree_outgrouprooting_nooutgroup_AncestralSeq.fasta
 
+Within `Ancestral Confidence Value` folder: it contains the confidence value of ancestral sequences
 
+- picornaviridae_5UTR_mitovirus_replicasetree_outgrouprooting_nooutgroup_Ancestral_Confidence
+- potyviridae_5UTR_mitovirus_replicasetree_outgrouprooting_nooutgroup_Ancestral_Confidence
+- potyviridae_picornaviridae_5UTR_mitovirus_replicasetree_outgrouprooting_nooutgroup_Ancestral_Confidence
 ## __Analysis_without_Outgroup__Triticum__
 
 Within `Trees(outgroup and Triticum removed)` folder: it contains the trees with the 5UTR files without the outgroups and without the (Triticum + Outgroup)
@@ -328,3 +332,8 @@ Within `Sequences (outgroup and Triticum removed)` folder: it contains the files
 - picornaviridae_triticum_5UTR_mitovirus_outgroup_ReplicaseID_noTriticum.fas
 - replicase_picornavirus_triticum_protein_mitovirus_outgroup_nooutgroupfile.fas
 - replicase_picornavirus_triticum_protein_mitovirus_outgroup_noTriticumfile.fas
+
+Within `Ancestral Confidence Values` folder: it contains the confidence value of ancestral sequences
+
+- picornaviridae_triticum_5UTR_mitovirus_nucleotide_replicasetree_outgrouprooting_nooutgroup_Ancestral_Confidence
+- picornaviridae_triticum_5UTR_mitovirus_nucleotide_replicasetree_outgrouprooting_noTriticum_Ancestral_Confidence
