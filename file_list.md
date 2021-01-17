@@ -317,6 +317,7 @@ Within `Ancestral Confidence Value` folder: it contains the confidence value of 
 - picornaviridae_5UTR_mitovirus_replicasetree_outgrouprooting_nooutgroup_Ancestral_Confidence
 - potyviridae_5UTR_mitovirus_replicasetree_outgrouprooting_nooutgroup_Ancestral_Confidence
 - potyviridae_picornaviridae_5UTR_mitovirus_replicasetree_outgrouprooting_nooutgroup_Ancestral_Confidence
+
 ## __Analysis_without_Outgroup__Triticum__
 
 Within `Trees(outgroup and Triticum removed)` folder: it contains the trees with the 5UTR files without the outgroups and without the (Triticum + Outgroup)
@@ -337,3 +338,28 @@ Within `Ancestral Confidence Values` folder: it contains the confidence value of
 
 - picornaviridae_triticum_5UTR_mitovirus_nucleotide_replicasetree_outgrouprooting_nooutgroup_Ancestral_Confidence
 - picornaviridae_triticum_5UTR_mitovirus_nucleotide_replicasetree_outgrouprooting_noTriticum_Ancestral_Confidence
+
+
+## Complete_Genome_Without_Outgroups
+
+Within `Trees(outgroup Mitovirus removed)` folder: it contains the tree files of the complete genome without the outgroups (Mitovirus)
+
+-  potyviridae_genome_mitovirus_outgrouprooting_nooutgroup.tree
+-  replicase_picornavirus_nucleotide_mito_outgrouprooting_ID_nooutgroup.tree
+-  replicase_picornavirus_potyvirus_nucleotide_mitovirus_outgrouprooting_ID_nooutgroup.tree
+
+Within `Nucleotide Sequences (outgroup Mitovirus removed)` folder: it contains the nucleotide sequences of the complete genome with the Mitovirus outgroup removed
+
+-  picornaviridae_genome_mitovirus_aligned_nospacegap_deleted_nooutgroup.fas
+-  picornaviridae_potyviridae_genome_mitovirus_nospacegap_deleted_nooutgroup.fas
+-  potyviridae_genome_mitovirus_aligned_nospacegap_nooutgroup.fas
+
+Within `Ancestral Sequences` folder: it contains the most probable ancestral sequences of the complete genome without the outgroup at each site
+
+-  picornaviridae_genome_mitovirus_aligned_outgrouprooting_nooutgroup_AncestralSeq.fasta
+-  picornaviridae_potyviridae_genome_mitovirus_outgrouprooting_nooutgroup_AncestralSeq.fasta
+-  potyviridae_genome_mitovirus_aligned_outgrouprooting_nooutgroup_AncestralSeq.fasta
+
+Within `Ancestral Confidence Values` folder: it contains the confidence value of ancestral sequences at each site
+
+- picornaviridae_genome_mitovirus_aligned_outgrouprooting_nooutgroup_Ancestral_ConfValue
