@@ -318,7 +318,7 @@ Within `Ancestral Confidence Value` folder: it contains the confidence value of 
 - potyviridae_5UTR_mitovirus_replicasetree_outgrouprooting_nooutgroup_Ancestral_Confidence
 - potyviridae_picornaviridae_5UTR_mitovirus_replicasetree_outgrouprooting_nooutgroup_Ancestral_Confidence
 
-## __Analysis_without_Outgroup__Triticum__
+## __Analysis_With_Or_Without_Triticum__
 
 Within `Trees(outgroup and Triticum removed)` folder: it contains the trees with the 5UTR files without the outgroups and without the (Triticum + Outgroup)
 picornaviridae_triticum_5UTR_mitovirus_outgroup_ReplicaseID_nooutgroup.fa
@@ -327,17 +327,27 @@ picornaviridae_triticum_5UTR_mitovirus_outgroup_ReplicaseID_nooutgroup.fa
 - replicase_picornavirus_triticum_protein_mitovirus_outgrouprooting_nooutgroup.tree
 - replicase_picornavirus_triticum_protein_mitovirus_outgrouprooting_noTriticum.tree
 
-Within `Sequences (outgroup and Triticum removed)` folder: it contains the files with the ID in the replicase files and the removal of outgroup and Triticum
+Within `Aligned_Sequences (Outgroup or Triticum removed)` folder: it contains the files with the ID in the replicase files and the removal of outgroup and Triticum
 
 - picornaviridae_triticum_5UTR_mitovirus_outgroup_ReplicaseID_nooutgroup.fas
 - picornaviridae_triticum_5UTR_mitovirus_outgroup_ReplicaseID_noTriticum.fas
 - replicase_picornavirus_triticum_protein_mitovirus_outgroup_nooutgroupfile.fas
 - replicase_picornavirus_triticum_protein_mitovirus_outgroup_noTriticumfile.fas
 
+Within `Ancestral Sequences/No_Outgroup_No_Triticum ` folder: it contains the estimated nucleotide and protein ancestral sequences without the outgroup and Triticum during the ancestral reconstruction
+
+- picornaviridae_triticum_5UTR_mitovirus_nucleotide_outgrouprooting_noTriticum_noOutgroup_AncestralSeq.fasta
+- replicase_picornavirus_triticum_protein_mitovirus_outgrouprooting_noTriticum_noOutgroup_AncestralSeq.fasta
+
+Within `Ancestral Sequences/No_Outgroup_With_Triticum ` folder: it contains the estimated nucleotide and protein ancestral sequences without the outgroup but keeping the Triticum during the ancestral reconstruction
+
+- picornaviridae_triticum_5UTR_mitovirus_nucleotide_outgrouprooting_with_Triticum_nooutgroup_AncestralSeq.fasta
+- replicase_picornavirus_triticum_protein_mitovirus_outgrouprooting_with_Triticum_nooutgroup_AncestralSeq.fasta
+
 Within `Ancestral Confidence Values` folder: it contains the confidence value of ancestral sequences
 
-- picornaviridae_triticum_5UTR_mitovirus_nucleotide_replicasetree_outgrouprooting_nooutgroup_Ancestral_Confidence
-- picornaviridae_triticum_5UTR_mitovirus_nucleotide_replicasetree_outgrouprooting_noTriticum_Ancestral_Confidence
+- picornaviridae_triticum_5UTR_mitovirus_nucleotide_outgrouprooting_noTriticum_noOutgroup_Ancestral_Confidence
+- picornaviridae_triticum_5UTR_mitovirus_nucleotide_outgrouprooting_With_Triticum_nooutgroup_Ancestral_Confidence
 
 
 ## Complete_Genome_Without_Outgroups
