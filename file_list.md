@@ -71,9 +71,13 @@ Cryphonectria parasitica mitovirus and Ophiostoma mitovirus 4 (Narnaviridae fami
 
 ## __Files 2021 (new approach, smaller datasets)__
 
-- __flaviviridae_w_outgroup_wo_flavivirus_aligned.fasta__: 9 aligned nucleotide sequences of the 5' UTR of members of the Flaviviridae family with a characterized IRES (2 Hepacivirus, 2 Pestivirus, 2 Pegivirus, 1 outgroup). Ophiostoma mitovirus 4 (Narnaviridae family) is added as outgroup.
+Uploaded March 24 2021 to Slack by Helena 
+- __flaviviridae_w_outgroup_wo_flavivirus_aligned.fasta__: 8 aligned nucleotide sequences of the 5' UTR of members of the Flaviviridae family with a characterized IRES plus 1 outgroup (9 sequence total: 4 Hepacivirus, 2 Pestivirus, 2 Pegivirus, 1 outgroup). Ophiostoma mitovirus 4 (Narnaviridae family) is added as outgroup.
 
-- __potyviridae_poacevirus_w_outgroup_aligned.fasta__: 4 aligned nucleotide sequences of the 5' UTR of members of the genus Poacevirus (Potyviridae family) including TriMV which has a characterized IRES. Ophiostoma mitovirus 4 (Narnaviridae family) is added as outgroup.
+- __potyviridae_poacevirus_w_outgroup_aligned.fasta__: 3 aligned nucleotide sequences of the 5' UTR of members of the genus Poacevirus (Potyviridae family) including TriMV which has a characterized IRES (4 sequence total: 3 Poacevirus, 1 outgroup). Ophiostoma mitovirus 4 (Narnaviridae family) is added as outgroup.
+
+Uploaded March 30 2021 to Slack by Helena
+- __picornaviridae_w_outgroup_aligned.fasta__: 10 aligned nucleotide sequences of the 5' UTR of members of Picornaviridae family with a characterized IRES plus 1 outgroup (11 sequence total: 5 Enterovirus, 2 Aphotvirus, 1 Hepatovirus, 2 Cardiovirus, 1 outgroup). Ophiostoma mitovirus 4 (Narnaviridae family) is added as outgroup.
 
 
 # Script/results files
