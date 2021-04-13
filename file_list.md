@@ -383,3 +383,27 @@ Within `Ancestral Sequences` folder: it contains the most probable ancestral seq
 Within `Ancestral Confidence Values` folder: it contains the confidence value of ancestral sequences at each site
 
 - picornaviridae_genome_mitovirus_aligned_outgrouprooting_nooutgroup_Ancestral_ConfValue
+
+
+## __New_Dataset__
+
+This folder contains the files of the new dataset with smaller size and the new approach
+
+Within `Trees` folder: it includes the trees of three viruses families 
+Note: The file with label in the name represents that the label of every internal node is included in the trees
+
+- __flaviviridae_w_outgroup_wo_flavivirus_w_root.tree__
+- __flaviviridae_w_outgroup_wo_flavivirus_w_root_label.tree__
+- __picornaviridae_w_outgroup_w_root.tree__
+- __picornaviridae_w_outgroup_aligned_w_root_label.tree__
+- __potyviridae_poacevirus_w_outgroup_w_root.tree__
+- __potyviridae_poacevirus_w_outgroup_w_root_label.tree__
+
+Within `Joint Sequences` folder: it includes the calculated ancestral sequences at every internal nodes
+
+(N0 represents the ancestral sequences at the rooting point)
+
+- __flaviviridae_w_outgroup_wo_flavivirus_joint_ancestors.fasta__
+- __picornaviridae_w_outgroup_aligned_joint_ancestors.fasta__
+- __potyviridae_poacevirus_w_outgroup_joint_ancestors.fasta__
+
