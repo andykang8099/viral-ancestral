@@ -387,7 +387,7 @@ Within `Ancestral Confidence Values` folder: it contains the confidence value of
 
 ## __New_Dataset__
 
-This folder contains the files of the new dataset with smaller size and the new approach
+This folder contains the files of the new dataset with smaller size and the new approach. Reproducible script is in the `scripts_nds.md` file.
 
 Within `Trees` folder: it includes the trees of three viruses families 
 Note: The file with label in the name represents that the label of every internal node is included in the trees
