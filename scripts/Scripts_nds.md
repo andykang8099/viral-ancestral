@@ -126,20 +126,22 @@ This command product output file: "potyviridae\_poacevirus\_w\_outgroup\_Ancestr
 
 ##### Constructing the ancestral sequences at every internal nodes
 
+Note: The method I use could only generatet the confidence value at one internal nodes. I will combine the confidence value into a single file. (e.g, cat *ConfValue* &gt;&gt; combined.txt) (N0,N1,...,)
+
 1.Flaviridae
 
-java -jar bnkit.jar -aln flaviviridae\_wo\_outgroup\_wo\_flavivirus\_aligned.fasta -nwk flaviviridae\_wo\_outgroup\_wo\_flavivirus\_w\_root.tree -out flaviviridae\_wo\_outgroup\_wo\_flavivirus\_joint\_ancestors.fasta -joint -format DISTRIB -model Yang
+java -jar bnkit.jar -aln flaviviridae\_wo\_outgroup\_wo\_flavivirus\_aligned.fasta -nwk flaviviridae\_wo\_outgroup\_wo\_flavivirus\_w\_root.tree -out flaviviridae\_wo\_outgroup\_wo\_flavivirus\_joint\_ancestors\_ConfValue -marg N0 -format DISTRIB -model Yang
 
-This step produces files: "flaviviridae\_wo\_outgroup\_wo\_flavivirus\_joint\_ancestors.fasta"
+This step produces files: "flaviviridae\_wo\_outgroup\_wo\_flavivirus\_joint\_ancestors\_ConfValue"
 
 1.  Picornviridae
 
-java -jar bnkit.jar -aln picornaviridae\_wo\_outgroup\_aligned.fasta -nwk picornaviridae\_wo\_outgroup\_w\_root.tree -out picornaviridae\_wo\_outgroup\_aligned\_joint\_ancestors.fasta -joint -format DISTRIB -model Yang
+java -jar bnkit.jar -aln picornaviridae\_wo\_outgroup\_aligned.fasta -nwk picornaviridae\_wo\_outgroup\_w\_root.tree -out picornaviridae\_wo\_outgroup\_aligned\_joint\_ancestors\_ConfValue -marg N0 -format DISTRIB -model Yang
 
-This step produces files: "picornaviridae\_wo\_outgroup\_aligned\_joint\_ancestors.fasta"
+This step produces files: "picornaviridae\_wo\_outgroup\_aligned\_joint\_ancestors\_ConfValue"
 
 1.  Potyviridae and Poacevirus
 
-java -jar bnkit.jar -aln potyviridae\_poacevirus\_wo\_outgroup\_aligned.fasta -nwk potyviridae\_poacevirus\_wo\_outgroup\_w\_root.tree -out potyviridae\_poacevirus\_wo\_outgroup\_joint\_ancestors.fasta -joint -format DISTRIB -model Yang
+java -jar bnkit.jar -aln potyviridae\_poacevirus\_wo\_outgroup\_aligned.fasta -nwk potyviridae\_poacevirus\_wo\_outgroup\_w\_root.tree -out potyviridae\_poacevirus\_wo\_outgroup\_joint\_ancestors\_ConfValue -marg N0 -format DISTRIB -model Yang
 
-This step produces files: "potyviridae\_poacevirus\_wo\_outgroup\_joint\_ancestors.fasta"
+This step produces files: "potyviridae\_poacevirus\_wo\_outgroup\_joint\_ancestors\_ConfValue.fasta"
