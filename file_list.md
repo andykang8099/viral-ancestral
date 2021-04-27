@@ -407,3 +407,8 @@ Within `Joint Sequences` folder: it includes the calculated ancestral sequences 
 - __picornaviridae_wo_outgroup_aligned_joint_ancestors.fasta__
 - __potyviridae_poacevirus_wo_outgroup_joint_ancestors.fasta__
 
+Within `Ancestral Confidence Value` folder: it contains the confidence value of the estimated ancestral sequences at every internal nodes for the three datasets
+
+- __flaviviridae_wo_outgroup_wo_flavivirus_joint_ancestors_ConfValue__
+- __picornaviridae_wo_outgroup_aligned_joint_ancestors_ConfValue__
+- __potyviridae_poacevirus_wo_outgroup_joint_ancestors_ConfValue__
