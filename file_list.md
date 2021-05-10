@@ -79,6 +79,9 @@ Uploaded March 24 2021 to Slack by Helena
 Uploaded March 30 2021 to Slack by Helena
 - __picornaviridae_w_outgroup_aligned.fasta__: 10 aligned nucleotide sequences of the 5' UTR of members of Picornaviridae family with a characterized IRES plus 1 outgroup (11 sequence total: 5 Enterovirus, 2 Aphotvirus, 1 Hepatovirus, 2 Cardiovirus, 1 outgroup). Ophiostoma mitovirus 4 (Narnaviridae family) is added as outgroup.
 
+Uploaded May 10 2021 to Slack by Helena
+- __dicistrovirus_I_w_outgroup_aligned.fasta__: 7 aligned nucleotide sequences of the 5' UTR of members of Dicistroviridae family with a characterized IRES plus 1 outgroup (8 sequence total: 4 Cripavirus, 3 Aparavirus, 1 outgroup). Ophiostoma mitovirus 4 (Narnaviridae family) is added as outgroup.
+- __dicistrovirus_II_w_outgroup_aligned.fasta__: 7 aligned nucleotide sequences of the intergenic region of members of Dicistroviridae family with a characterized IRES plus 1 outgroup (8 sequence total: 4 Cripavirus, 3 Aparavirus, 1 outgroup). Ophiostoma mitovirus 4 (Narnaviridae family) is added as outgroup.
 
 # Script/results files
 ## Initial four files 
