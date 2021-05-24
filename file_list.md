@@ -415,3 +415,30 @@ Within `Ancestral Confidence Value` folder: it contains the confidence value of 
 - __flaviviridae_wo_outgroup_wo_flavivirus_joint_ancestors_ConfValue__
 - __picornaviridae_wo_outgroup_aligned_joint_ancestors_ConfValue__
 - __potyviridae_poacevirus_wo_outgroup_joint_ancestors_ConfValue__
+
+## __dicistrovirus_dataset__
+
+This folder contains the files of the analysis wit the discistrovirus (two datasets total)
+
+Within `trees` folder: it includes the estimated trees of the dicistrovirus I and II viruses (the outgroup is removed)
+
+Note: The file with label in the name represents that the label of every internal node is included in the trees
+
+- __dicistrovirus_I_wo_outgroup_aligned_w_root_w_label.tree__
+- __dicistrovirus_I_wo_outgroup_aligned_w_root.tree__
+- __dicistrovirus_II_wo_outgroup_aligned_w_root_w_label.tree__
+- __dicistrovirus_II_wo_outgroup_w_root.tree__
+
+
+Within `joint ancestors` folder: it includes the calculated ancestral sequences at every internal nodes
+
+(N0 represents the ancestral sequences at the rooting point)
+
+- __dicistrovirus_I_wo_outgroup_aligned_joint_ancestors.fasta__
+- __dicistrovirus_II_wo_outgroup_aligned_joint_ancestors.fasta__
+
+Within `ancestral confidence values` folder: it contains the confidence values of the estimated ancestral sequences at every internal nodes for the two datasets
+
+- __dicistrovirus_I_wo_outgroup_aligned_joint_ancestors_ConfValue__
+- __dicistrovirus_II_wo_outgroup_aligned_joint_ancestors_ConfValue__
+
