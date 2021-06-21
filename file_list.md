@@ -83,6 +83,14 @@ Uploaded May 10 2021 to Slack by Helena
 - __dicistrovirus_I_w_outgroup_aligned.fasta__: 7 aligned nucleotide sequences of the 5' UTR of members of Dicistroviridae family with a characterized IRES plus 1 outgroup (8 sequence total: 4 Cripavirus, 3 Aparavirus, 1 outgroup). Ophiostoma mitovirus 4 (Narnaviridae family) is added as outgroup.
 - __dicistrovirus_II_w_outgroup_aligned.fasta__: 7 aligned nucleotide sequences of the intergenic region of members of Dicistroviridae family with a characterized IRES plus 1 outgroup (8 sequence total: 4 Cripavirus, 3 Aparavirus, 1 outgroup). Ophiostoma mitovirus 4 (Narnaviridae family) is added as outgroup.
 
+Uploaded June 21 2021 to Slack by Helena
+- __Picornaviridae_w_triticum_w_outgroup_aligned.fasta__: 10 aligned nucleotide sequences of the 5' UTR of members of Picornaviridae family with a characterized IRES, plus Triticum mosaic virus (TriMV), plus 1 outgroup (12 sequence total: 5 Enterovirus, 2 Aphotvirus, 1 Hepatovirus, 2 Cardiovirus, 1 TriMV, 1 outgroup). Ophiostoma mitovirus 4 (Narnaviridae family) is added as outgroup.
+
+- __Dicistrovirus_I_w_triticum_w_outgroup_aligned.fasta__: 7 aligned nucleotide sequences of the 5' UTR of members of Dicistroviridae family with a characterized IRES, plus Triticum mosaic virus (TriMV), plus 1 outgroup (9 sequence total: 4 Cripavirus, 3 Aparavirus, 1 TriMV, 1 outgroup). Ophiostoma mitovirus 4 (Narnaviridae family) is added as outgroup.
+
+- __Dicistrovirus_II_w_triticum_w_outgroup_aligned.fasta__: 7 aligned nucleotide sequences of the intergenic region of members of Dicistroviridae family with a characterized IRES, plus Triticum mosaic virus (TriMV), plus 1 outgroup (9 sequence total: 4 Cripavirus, 3 Aparavirus, 1 TriMV, 1 outgroup). Ophiostoma mitovirus 4 (Narnaviridae family) is added as outgroup.
+
+
 # Script/results files
 ## Initial four files 
 Analysis of 4 files in `scripts/virus_project_initial_files.Rmd`
