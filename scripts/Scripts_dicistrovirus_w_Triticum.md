@@ -137,18 +137,24 @@ This command produces output file: "Picornaviridae\_w\_triticum\_wo\_outgroup\_A
 
 \*\*Tree with label file: "Picornaviridae\_w\_triticum\_wo\_outgroup\_w\_root\_w\_label.tree"
 
-##### Constructing the ancestral sequences and their confidence value at every internal nodes with Triticum (later)
+##### Constructing the ancestral sequences and their confidence value at every internal nodes (sequences with Triticum
 
 Note: The method I use could only generatet the confidence value at one internal nodes. I will combine the confidence value into a single file. (e.g, cat *ConfValue* &gt;&gt; combined.txt) (N0,N1,...,)
 
-1.dicistrovirus I
+1.  dicistrovirus I (with Triticum)
 
-java -jar bnkit.jar -aln dicistrovirus\_I\_wo\_outgroup\_aligned.fasta -nwk dicistrovirus\_I\_wo\_outgroup\_w\_root.tree -out dicistrovirus\_I\_wo\_outgroup\_aligned\_joint\_ancestors\_ConfValue -marg N0 -format DISTRIB -model Yang
+java -jar bnkit.jar -aln Dicistrovirus\_I\_w\_triticum\_wo\_outgroup\_aligned.fasta -nwk Dicistrovirus\_II\_w\_triticum\_wo\_outgroup\_aligned\_w\_root.tree -out Dicistrovirus\_I\_w\_triticum\_wo\_outgroup\_joint\_ancestors\_ConfValue -marg N0 -format DISTRIB -model Yang
 
-This step produces files: "dicistrovirus\_I\_wo\_outgroup\_aligned\_joint\_ancestors\_ConfValue"
+This step produces files: "Dicistrovirus\_I\_w\_triticum\_wo\_outgroup\_joint\_ancestors\_ConfValue"
 
-1.  dicistrovirus II
+1.  dicistrovirus II with Triticum
 
-java -jar bnkit.jar -aln dicistrovirus\_II\_wo\_outgroup\_aligned.fasta -nwk dicistrovirus\_II\_wo\_outgroup\_w\_root.tree -out dicistrovirus\_II\_wo\_outgroup\_aligned\_joint\_ancestors\_ConfValue -marg N0 -format DISTRIB -model Yang
+java -jar bnkit.jar -aln Dicistrovirus\_II\_w\_triticum\_wo\_outgroup\_aligned.fasta -nwk dicistrovirus\_II\_wo\_outgroup\_w\_root.tree -out Dicistrovirus\_II\_w\_triticum\_wo\_outgroup\_joint\_ancestors\_ConfValue -marg N0 -format DISTRIB -model Yang
 
-This step produces files: "dicistrovirus\_II\_wo\_outgroup\_aligned\_joint\_ancestors\_ConfValue"
+This step produces files: "Dicistrovirus\_II\_w\_triticum\_wo\_outgroup\_joint\_ancestors\_ConfValue"
+
+1.  Picornviridae with Triticum
+
+java -jar bnkit.jar -aln Picornaviridae\_w\_triticum\_wo\_outgroup\_aligned.fasta -nwk Picornaviridae\_w\_triticum\_wo\_outgroup\_w\_root.tree -out Picornaviridae\_w\_triticum\_wo\_outgroup\_joint\_ancestors\_ConfValue -marg N0 -format DISTRIB -model Yang
+
+This step produces files: "Picornaviridae\_w\_triticum\_wo\_outgroup\_joint\_ancestors\_ConfValue"
