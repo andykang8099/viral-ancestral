@@ -450,3 +450,39 @@ Within `ancestral confidence values` folder: it contains the confidence values o
 - __dicistrovirus_I_wo_outgroup_aligned_joint_ancestors_ConfValue__
 - __dicistrovirus_II_wo_outgroup_aligned_joint_ancestors_ConfValue__
 
+
+## __NewData_w_Triticum__
+
+This folder contains the files of the analysis with the discistrovirus and Picornavirus(three datasets total) and the Triticum is included in the alignment sequences
+
+Within `Trees` folder: it includes the estimated trees of the dicistrovirus I and II viruses (the outgroup is removed)
+
+Note: The file with label in the name represents that the label of every internal node is included in the trees
+
+- __Dicistrovirus_I_w_triticum_wo_outgroup_aligned_w_root.tree__
+- __Dicistrovirus_I_w_triticum_wo_outgroup_w_root_w_label.tree__
+- __Dicistrovirus_II_w_triticum_wo_outgroup_w_root.tree__
+- __Dicistrovirus_II_w_triticum_wo_outgroup_w_root_w_label.tree__
+- __Picornaviridae_w_triticum_wo_outgroup_w_root.tree__
+- __Picornaviridae_w_triticum_wo_outgroup_w_root_w_label.tree__
+
+
+Within `Joint ancestral sequences` folder: it includes the calculated ancestral sequences at every internal nodes
+
+(N0 represents the ancestral sequences at the rooting point)
+
+- __Dicistrovirus_I_w_triticum_wo_outgroup_joint_ancestors.fasta__
+- __Dicistrovirus_II_w_triticum_wo_outgroup_joint_ancestors.fasta__
+- __Picornaviridae_w_triticum_wo_outgroup_joint_ancestors.fasta__
+
+Within `Confidence Values of Ancestral Sequences` folder: it contains the confidence values of the estimated ancestral sequences at every internal nodes for the three datasets
+
+- __Dicistrovirus_I_w_triticum_wo_outgroup_joint_ancestors_ConfValue.txt__
+- __Dicistrovirus_II_w_triticum_wo_outgroup_joint_ancestors_ConfValue.txt__
+- __Picornaviridae_w_triticum_wo_outgroup_joint_ancestors_ConfValue.txt__
+
+Within `Ancestral sequences(N0)` folder: it includes the calculated ancestral sequences at the rooting point, which is N0.
+
+- __Dicistrovirus_I_w_triticum_wo_outgroup_joint_ancestors.fasta__
+- __Dicistrovirus_II_w_triticum_wo_outgroup_AncestralSeq.fasta__
+- __Picornaviridae_w_triticum_wo_outgroup_AncestralSeq.fasta__
