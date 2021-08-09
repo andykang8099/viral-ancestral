@@ -486,3 +486,15 @@ Within `Ancestral sequences(N0)` folder: it includes the calculated ancestral se
 - __Dicistrovirus_I_w_triticum_wo_outgroup_joint_ancestors.fasta__
 - __Dicistrovirus_II_w_triticum_wo_outgroup_AncestralSeq.fasta__
 - __Picornaviridae_w_triticum_wo_outgroup_AncestralSeq.fasta__
+
+
+## __Picornviridae_N4__
+
+This folder contains the construction of the ancestral sequence of N4 node of picornviridae, the original alignment file is "picornaviridae_w_outgroup_aligned.fasta"
+
+There are two ways to construct N4. The first is to use all the taxons (original file), and the second way uses only two children: Encephalomyocarditis virus and Theilo virus (new file).
+
+- __picornaviridae_aligned_N4_original.fasta__
+- __picornaviridae_aligned_N4_new.fasta__
+
+
