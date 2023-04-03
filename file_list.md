@@ -90,6 +90,15 @@ Uploaded June 21 2021 to Slack by Helena
 
 - __Dicistrovirus_II_w_triticum_w_outgroup_aligned.fasta__: 7 aligned nucleotide sequences of the intergenic region of members of Dicistroviridae family with a characterized IRES, plus Triticum mosaic virus (TriMV), plus 1 outgroup (9 sequence total: 4 Cripavirus, 3 Aparavirus, 1 TriMV, 1 outgroup). Ophiostoma mitovirus 4 (Narnaviridae family) is added as outgroup.
 
+## __Files March 2023__
+(Uploaded March 29 2023 to [Drive](https://drive.google.com/drive/u/2/folders/0AHmGEazpc0PkUk9PVA)  
+
+- __picornaviridae_5UTR_with_outgroup.fasta__: 129 nucleotide sequences of the 5' UTR sequence of members of the Picornaviridae family. 
+Cryphonectria parasitica mitovirus and Ophiostoma mitovirus 4 (Narnaviridae family) are added as outgroups. 131 sequences total.
+- __picornaviridae_replicase_nucleotide_with_outgroup.fasta__: 84 nucleotide sequences of the replicase gene of members of the Picornaviridae family. Cryphonectria parasitica mitovirus and Ophiostoma mitovirus 4 (Narnaviridae family) are added as outgroups. 86 sequences total.
+- __picornaviridae_replicase_aminoacid_with_outgroup.fasta__: 84 amino acid sequences of the replicase gene of members of the Picornaviridae family. Cryphonectria parasitica mitovirus and Ophiostoma mitovirus 4 (Narnaviridae family) are added as outgroups. 86 sequences total.
+- __IRES_list.txt__: List of 129 viruses from the Picornaviridae family (names match the sequence name of the picornaviridae_5UTR_with_outgroup.fasta file) with the corresponding IRES type. IRES1 designates type I IRES, IRES2 designates type II IRES, IRES3 designates type III IRES, IRES4 designates type IV IRES, IRES5 designates type V IRES, and IRES0 designates unknown IRES type. Information about IRES type was gathered manually from different sources (mainly NCBI and [ICTV](https://ictv.global/report/chapter/picornaviridae/picornaviridae))  
+
 
 # Script/results files
 ## Initial four files 
